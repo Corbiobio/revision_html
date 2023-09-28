@@ -6,10 +6,128 @@
     <meta name="description" content="description du site">
     <title> Ville </title>
     <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style.less">
 
 </head>
 <body>
-<header>
+
+      <FORM NAME="form1">
+      
+      
+      <TABLE BORDER="1" CELLSPACING="0" BGCOLOR="#FFFFAA">
+        <TR BGCOLOR="#CCCCCC">
+          <TH WIDTH=10%>Quantité
+          <TD WIDTH=50%><B>Article</B>
+          <TH WIDTH=15%>Prix unitaire
+          <TH WIDTH=15%>Prix
+        <TR>
+          <TH><INPUT TYPE="text" NAME="q1" SIZE=3 MAXLENGTH=2 style="text-align: center; " >
+          <TD>Bureau
+          <TH><INPUT TYPE="text" NAME="pu1" VALUE="450" SIZE=5 style="text-align: right; " >
+          <TH><INPUT TYPE="text" NAME="p1" SIZE=8 style="text-align: right; ">
+        <TR>
+          <TH><INPUT TYPE="text" NAME="q2" SIZE=3 MAXLENGTH=2 style="text-align: center; " >
+          <TD>Chaises
+          <TH><INPUT TYPE="text" NAME="pu2" VALUE="80" SIZE=5 style="text-align: right; " >
+          <TH><INPUT TYPE="text" NAME="p2" SIZE=8 style="text-align: right; ">
+        <TR>
+          <TH><INPUT TYPE="text" NAME="q3" SIZE=3 MAXLENGTH=2 style="text-align: center; " >
+          <TD>Roulettes de chaises (paquet de 4)
+          <TH><INPUT TYPE="text" NAME="pu3" VALUE="16.5" SIZE=5 style="text-align: right; " >
+          <TH><INPUT TYPE="text" NAME="p3" SIZE=8 style="text-align: right; ">
+        <TR>
+          <TD COLSPAN=3 ALIGN=right BGCOLOR="#CCCCCC"><B>Total TTC</B>&nbsp;&nbsp;&nbsp;
+          <TH><INPUT TYPE="text" NAME="total" SIZE=8 style="text-align: right; " >
+      </TABLE>
+      
+      <P>
+      <input type="button" value=" Soumettre la commande " >
+          
+      <INPUT TYPE="RESET" VALUE="Effacer" > 
+      </P>
+      
+      </FORM>
+
+
+
+    <!-- <form action="#" method="get" id="form" onsubmit="return false">
+
+        <div>
+            <label for="name">name :</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="password">password :</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="noir">noir</label>
+            <input type="checkbox" id="noir" value="noir">
+            <label for="blanc">blanc</label>
+            <input type="checkbox" id="blanc" value="blanc">
+        </div>
+        <div>
+            <h2>eau : </h2>
+            <input type="radio" name="eau" id="plate" checked  value="plate">
+            <label for="plate">plate</label>
+
+            <input type="radio" name="eau" id="gazeuse" value="gazeuse">
+            <label for="gazeuse">gazeuse</label>
+
+            <input type="radio" name="eau" id="sirop" value="sirop">
+            <label for="sirop">sirop</label>
+
+            <input type="radio" name="eau" id="citron" value="citron">
+            <label for="citron">citron</label>
+        </div>
+       <div>
+           <select name="cheese" id="select" size="3" multiple>
+               <option value="bri">bri</option>
+               <option value="roblochon" selected>roblochon</option>
+               <option value="gruyere" selected>gruyère</option>
+            </select>
+        </div>
+
+        <div>
+            <textarea name="commentaire" id="commentaire" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form> -->
+
+    <!-- <div id="container">
+        <div>menu 1</div>
+        <div>menu 2</div>
+        <div>menu 3</div>
+        <div>menu 4</div>
+    </div>
+
+    <p id="content">contenu</p> -->
+
+    <!-- <p id="compteur">0:0</p>
+    <div>
+        <button id="start">start</button>
+        <button id="stop">stop</button>
+        <button id="delete">delete</button>
+        <button id="memo">memorize</button>
+        <button id="recall">recall</button>
+    </div> -->
+
+    <!-- <div class="rectangle" id="rectangle1"></div>
+    <div class="rectangle" id="rectangle2"></div>
+    <br />
+    <p>A partir du html ci-dessus, ajouter le code less pour arriver au rendu ci-dessous: #d0e54c;</p>
+    <img src="/img/rectangle.png" />
+    <p>Ce code devra avoir une seule couleur de déclarée, la taille de la bordure vaut 10% de la hauteur et la couleur de fond de la 2ème div est plus claire de 30%</p>
+   
+    <div>
+
+    </div>
+    <article></article>
+    <section></section> -->
+
+   <!-- <header>
     <h1>Le genre panthera</h1>
     <nav>
         <ul>
@@ -33,7 +151,7 @@
 
 <main>
 
-    <section>
+ <section>
         <input type="radio" id="leopart" name="felin">
         <label for="leopart"><h2>le leopart</h2></label>
 
@@ -108,7 +226,7 @@
 
     
 
-</main>
+</main> -->
 
     <!-- <header id="top">
         <h1>3 oiseaux du monde</h1>
@@ -714,7 +832,6 @@
         </table> -->
         
         <script src="app.js" type="module"></script>
-        
     </body>
     </html>
     
